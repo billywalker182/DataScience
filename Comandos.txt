@@ -1,0 +1,2 @@
+cd /c/Users/VEW0213/Documents/BillyWalker/Mintic
+git remote add origin https://github.com/billywalker182/DataScience.git
