@@ -1,0 +1,11 @@
+		:::DOCKER:::
+:::INSTALL POSTGRES IN A RUNNING DOCKER CONTAINER:::
+docker ps
+docker run -p 8888:8888 -v "$PWD":/home/jovyan/work \jupyter/scipy-notebook:17aba6048f44
+docker stop $(docker ps -q -f "name=$1")
+docker exec -it -u root <05e27e9d0835=CREATE> bash
+sudo apt-get update && sudo apt-get install -y libpq-dev
+pip install psycopg2
+sudo apt-get update && sudo apt-get install -y postgresql postgresql-contrib
+/etc/init.d/postgresql start
+sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD 'some_password';"

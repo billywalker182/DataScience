@@ -1,0 +1,9 @@
+docker run -p 8888:8888 -v C:\Users\jho_c\Documents\DataScience\notebook:/home/jovyan/work jupyter/scipy-notebook:17aba6048f44
+
+docker run -p 8888:8888 -v c:\Users\<User>\path\to\your\notebooks:^
+/home/jovyan/work jupyter/scipy-notebook:17aba6048f44
+
+docker run -p 8888:8888 -v C:\Users\jho_c\Documents\DataScience\notebook:/home/jovyan/work\jupyter/scipy-notebook:17aba6048f44
+
+/c/Users/jho_c/Documents/'Data Science'/Docker
+/'Docker Images'/docker-images
