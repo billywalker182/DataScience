@@ -32,4 +32,4 @@ layout = go.Layout(title="Renta per capita vs Esperanza de vida",
 #Creación de objeto "Figure" de Plotly a partir de los objetos data y layout creados previamente
 fig = go.Figure(data=data, layout=layout)
 #Generación del plot a partir de la figura definida y nombre del fichero de salida HTML
-pyo.plot(fig, filename="3.6_Bubble Plot.html")
+pyo.plot(fig, filename="Bubble_Plot.html")
