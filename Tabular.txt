@@ -1,1 +1,3 @@
 %config IPCompleter.greedy=True
+
+cd /mnt/c/Users/jho_c/Documents/DataScience
